@@ -1,5 +1,5 @@
 # Dockerfile
-FROM node:18
+FROM node:24
 
 WORKDIR /app
 
@@ -10,4 +10,4 @@ RUN npm install
 
 COPY . .
 
-CMD ["npm", "test"]
+CMD ["npm", "start"]
